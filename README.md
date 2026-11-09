@@ -26,7 +26,7 @@
 
 ## 🔍 Visão Geral
 
-O **SoundHub** é um sistema web front-end concebido para simular uma plataforma completa de gerenciamento musical. O projeto abrange desde a autenticação de usuários até o cadastro refinado de artistas, faixas e a exibição centralizada do catálogo.
+A **Biblioteca musical** é um sistema web front-end concebido para simular uma plataforma completa de gerenciamento musical. O projeto abrange desde a autenticação de usuários até o cadastro refinado de artistas, faixas e a exibição centralizada do catálogo.
 
 ---
 

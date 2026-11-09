@@ -102,17 +102,6 @@ Não é necessária a instalação de servidores ou compilers. Apenas um navegad
 - [ ] Integração com **JavaScript (ES6+)** para manipulação do DOM e validação de formulários no cliente.
 
 ---
-
-## 🤝 Autores e Contribuição
-
-Desenvolvido como projeto de avaliação final de semestre.
-
-Se quiser contribuir com melhorias:
-1. Faça um **Fork** do projeto.
-2. Crie uma Branch para sua Feature (`git checkout -b feature/NovaFeature`).
-3. Abra um **Pull Request**.
-
----
 <p center align="center">
   Feito com ❤️ para o encerramento do semestre letivo!
 </p>

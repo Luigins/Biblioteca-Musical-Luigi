@@ -1,0 +1,126 @@
+<!-- Tela de login -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+         <!-- UTF - 8: libera os acentos como ç, ã, é.  -->
+
+        <!-- o ==viewport==
+      define o tamanho da janela do navegador nesse caso faz que o site se adapte a diferentes tamanhos de tela como a do celular -->
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Biblioteca Musical - Login</title>
+
+         <!-- rel="icon": o ícone da aba. Aqui é o emoji desenhado direto no código. -->
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100
+100%27><text y=%27.9em%27 font-size=%2790%27>🎶</text></svg>">
+
+        <!-- Ligando o arquivo de CSS no HTML -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- A classe criada login-page é usada no CSS para estilizar a página de login no arquivo css -->
+
+<body class="login-page">
+    <!-- login-card: a caixa que guarda o login inteiro. -->
+
+    <div class="login-card">
+
+        <!-- Classe login-header: título e subtítulo estilizados no CSS-->
+
+    <div class="login-header">
+        <h1>🎶 Sistema Musical</h1>
+            <p>Entre com suas credenciais</p>
+        
+    </div>
+
+    <!--
+ FORM: o formulário de login.
+
+method="post": envia os dados escondidos.
+
+action="#": por enquanto não envia para lugar nenhum.
+
+ Na back-end (Sprint 2) o action vai mandar os dados para o PHP.
+
+-->
+
+<form method="post" action="#">
+
+    <!-- form-group: junta um rótulo (label) e seu campo (input). -->
+
+<div class="form-group">
+
+<!-- for="usuario" é igual ao id do input: clicar no texto foca o campo. -->
+
+ <label for="usuario">Usuário</label>
+
+ <!-- 
+ 
+ type="text": campo de texto comum.
+
+ name: o nome do dado que o PHP vai receber na Sprint 2.
+
+ required: o navegador não deixa enviar nada vazio.
+
+ autocomplete: o navegador pode sugerir o usuário salvo.
+
+ placeholder: a dica cinza dentro do campo. 
+ 
+ -->
+ <input type="text" id="usuario"
+ name="usuario"
+ required
+ autocomplete="username"
+ placeholder="Seu usuário">
+  
+</div>
+
+<!-- o form-group indica que tudo o que for colocado dentro dela fará parte do mesmo grupo visual. -->
+
+<div class="form-group">
+
+<label for="senha">Digite sua Senha...</label>
+
+ <!-- type="password": esconde o que a pessoa digita (●●●). -->
+
+ <input type="password"
+
+ id="senha"
+
+ name="senha"
+
+ required autocomplete="current-password"
+
+ placeholder="Sua senha">
+
+ </div>
+
+ <!-- type="submit": envia o formulário. A classe btn-primary deixa o botão azul. -->
+
+<button type="submit" 
+
+class="btn-primary">Entrar</button>
+
+</form>
+
+<!-- login-hint: a dica com as credenciais de teste. <code> mostra em fonte de código. -->
+
+ <div class="login-hint">
+
+<b>Credenciais de teste:</b>
+<br>
+
+Usuário: <code>admin</code> &nbsp;·&nbsp; Senha: <code>123</code>
+
+<!-- O "&nbsp;" = espaço que não quebra a linha. -->
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -97,12 +97,9 @@ Não é necessária a instalação de servidores ou compilers. Apenas um navegad
 
 ---
 
-## 🔮 Próximos Passos & Melhorias
+## 🔮 Próximas Melhorias
 
 - [ ] Integração com **JavaScript (ES6+)** para manipulação do DOM e validação de formulários no cliente.
-- [ ] Conexão com **LocalStorage** para persistência temporária de dados.
-- [ ] Integração com **API de Música** (ex: Spotify API) para busca de dados em tempo real.
-- [ ] Adição de tema escuro (*Dark Mode*).
 
 ---
 
